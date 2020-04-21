@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreServices", "CoreServices", "{A042FE23-5D11-4798-BAB5-61DC4E1EE699}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{323EFA80-852A-406E-98D1-DFF9AFD94FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{7822AF92-8E22-425F-A72A-FD6DB5662B64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7822AF92-8E22-425F-A72A-FD6DB5662B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7822AF92-8E22-425F-A72A-FD6DB5662B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7822AF92-8E22-425F-A72A-FD6DB5662B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7822AF92-8E22-425F-A72A-FD6DB5662B64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7822AF92-8E22-425F-A72A-FD6DB5662B64} = {A042FE23-5D11-4798-BAB5-61DC4E1EE699}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE6947D-6753-4AD7-86EA-D14349068029}
+	EndGlobalSection
+EndGlobal
