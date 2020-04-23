@@ -7,7 +7,8 @@ namespace Gateway
 {
     public class Program
     {
-        private const string _defaultHostUrl = "https://betonomeshalka.herokuapp.com/";
+        private static string _defaultHostUrl = "http://betonomeshalka.herokuapp.com";
+        private static string _devHostUrl = "http://localhost:5000";
 
         public static void Main(string[] args)
         {
@@ -17,7 +18,7 @@ namespace Gateway
                 var webHost = new WebHostBuilder()
                     .UseKestrel()
                     .UseStartup<Startup>()
-                    .Start(_defaultHostUrl);
+                    .Start(_devHostUrl);
 
                 webHost.WaitForShutdown();
             }
