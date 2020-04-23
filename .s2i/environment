@@ -1,1 +1,1 @@
-DOTNET_STARTUP_PROJECT:Gateway/Gateway.csproj
+DOTNET_STARTUP_PROJECT=Gateway/Gateway.csproj
